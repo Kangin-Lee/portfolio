@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Black&display=swap');
+:root{
+  --font-color:white;
+  --font-color-hover:gray;
+  --header-font-family: 'Abel', sans-serif;
+  --normal-font-family: 'Archivo Black', sans-serif;;
+}
+
+/* 소개 파트-------------------------------------------------------- */
+.introduce-area{
+  height: 100vh;
+  background-color: #1c1813;
+  color: var(--font-color);
+}
+
+.bar{
+  font-size: 1.5em;
+  display: none;
+}
+
+.introduce-area header{
+  font-family: var(--header-font-family);
+  font-size: 2em;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introduce-area header ul{
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.introduce-area header ul li:hover{
+  color: var(--font-color-hover);
+  transition: 0.3s;
+}
+
+.introduce-typing{
+  font-size: 3em;
+  font-family: var(--header-font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 3em;
+  height: 60vh;
+}
+
+.introduce-body{
+  font-family: var(--normal-font-family);
+  font-size: 7rem;
+  font-weight: bold;
+  line-height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrolldown{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.40em;
+  align-self: flex-end;
+}
+
+@media ( max-width: 1400px ) {
+  .introduce-typing{
+    font-size: 2.5em;
+  }
+}
+
+@media ( max-width: 1200px ) {
+  .introduce-area header{
+    font-size: 1.6em;
+  }
+  .introduce-typing{
+    font-size: 2em;
+  }
+  .introduce-body{
+    font-size: 6em;
+  }
+}
+
+@media ( max-width: 992px ) {
+  .introduce-area header{
+    font-size: 1.4em;
+  }
+  .introduce-typing{
+    font-size: 1.6em;
+  }
+  .introduce-body{
+    font-size: 5em;
+  }
+}
+
+@media ( max-width: 768px ) {
+  .title{
+    display: none;
+  }
+  .introduce-area header{
+    font-size: 1.2em;
+  }
+  .introduce-typing{
+    font-size: 1.3em;
+    height: 65vh;
+  }
+
+  .introduce-body{
+    font-size: 4em;
+  }
+  .introduce-more{
+    display:none;
+  }
+
+}
+
+@media ( max-width: 535px ) {
+  .introduce-typing{
+    font-size: 1.1em;
+    height: 70vh;
+  }
+
+  .title{
+    display: block;
+  }
+
+  .bar{
+    display: block;
+  }
+
+  .first-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .introduce-area header ul{
+    display: none;
+  }
+
+  .second-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .introduce-body{
+    font-size: 3em;
+  }
+  .scrolldown{
+    display: none;
+  }
+}
+
+@media ( max-width: 400px ) {
+  .introduce-typing{
+    height: 60vh;
+  }
+}
