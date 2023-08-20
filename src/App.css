@@ -3,7 +3,15 @@
   --font-color:white;
   --font-color-hover:gray;
   --header-font-family: 'Abel', sans-serif;
-  --normal-font-family: 'Archivo Black', sans-serif;;
+  --normal-font-family: 'Archivo Black', sans-serif;
+  --footer-back-color:#343541;
+  --box-shadow:rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  --title-font-size:3em;
+  --layout-Padding:50px 0;
+}
+
+a{
+  color: white;
 }
 
 /* 소개 파트-------------------------------------------------------- */
@@ -161,4 +169,75 @@
   .introduce-typing{
     height: 60vh;
   }
+}
+
+/* aboutme--------------------------------------------------------------- */
+.aboutme-area{
+  padding: var(--layout-Padding);
+}
+
+.menutitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: var(--normal-font-family);
+  line-height: 1em;
+}
+
+/* skill---------------------------------------------------------------- */
+.skill-area{
+  background-color: #7cc1ac;
+  padding: var(--layout-Padding);
+}
+
+/* footer----------------------------------------------------------- */
+footer{
+  background-color: var(--footer-back-color);
+  padding: var(--layout-Padding);
+}
+
+.footer-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-brands{
+  list-style: none;
+  display: flex;
+  font-size: 1.8em;
+  padding: 0;
+}
+
+.footer-brands li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 20px;
+  border: 2px solid white;
+  border-radius: 100%;
+  color: white;
+  background-color: var(--footer-back-color);
+  box-shadow: var(--box-shadow);
+}
+
+.footer-brands li:hover{
+  color: var(--footer-back-color);
+  border-color:var(--footer-back-color) ;
+  background-color: white;
+  transition: 0.5s;
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+.footer-copyright{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  margin-top: 20px;
+  font-family: var(--header-font-family);
 }
