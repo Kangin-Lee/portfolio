@@ -9,6 +9,9 @@
   --title-font-size:3em;
   --layout-Padding:50px 0;
 }
+ul{
+  list-style: none;
+}
 
 a{
   color: white;
@@ -36,7 +39,6 @@ a{
 }
 .introduce-area header ul{
   display: flex;
-  list-style: none;
   cursor: pointer;
 }
 
@@ -123,6 +125,15 @@ a{
     display:none;
   }
 
+  .archiving-section{
+    flex-direction: column;
+  }
+
+  .archiving-github{
+    margin-bottom: 30px;
+    width: 278px;
+  }
+
 }
 
 @media ( max-width: 535px ) {
@@ -190,6 +201,69 @@ a{
 .skill-area{
   background-color: #7cc1ac;
   padding: var(--layout-Padding);
+}
+
+/* Archiving--------------------------------------------------------- */
+.archiving-area{
+  background-color: #f4a09c;
+  padding: var(--layout-Padding);
+}
+
+.archiving-area header{
+  margin-bottom: 70px;
+}
+
+.archiving-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+}
+.archiving-github, .archiving-tistory{
+  background-color: white;
+  border-radius: 20px;
+  width: 40%;
+  padding: 30px 30px;
+  box-shadow: var(--box-shadow);
+  transition: 0.5s;
+}
+
+.archiving-logo{
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.archiving-link, .archiving-text{
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.archiving-link{
+  font-family: var(--header-font-family);
+  color: #5095e5;
+}
+
+.archiving-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.archiving-github:hover, .archiving-tistory:hover{
+  transition: 0.5s;
+  box-shadow: none;
+  transform: translateY(2px);
+}
+.preview div{
+  font-family: var(--header-font-family);
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+.preview img{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 100%;
 }
 
 /* footer----------------------------------------------------------- */

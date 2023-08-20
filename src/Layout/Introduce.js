@@ -11,30 +11,32 @@ const Introduce = () => {
   return (
     <div className="introduce-area">
       <Container>
-        <header>
-          <section className="title">
-            <div>Web Developer</div>
-            <div>Portfolio</div>
-          </section>
-          <section>
-            <ul>
-              {menu.map((item) => (
-                <li style={{ marginRight: "30px"}}>{item}</li>
-              ))}
-            </ul>
-            <FontAwesomeIcon icon={faBars} className="bar"/>
-          </section>
-        </header>
+        <Fade delay={2000} duration={1500}>
+          <header>
+            <section className="title">
+              <div>Web Developer</div>
+              <div>Portfolio</div>
+            </section>
+            <section>
+              <ul>
+                {menu.map((item) => (
+                  <li style={{ marginRight: "30px" }}>{item}</li>
+                ))}
+              </ul>
+              <FontAwesomeIcon icon={faBars} className="bar" />
+            </section>
+          </header>
+        </Fade>
 
         <section className="introduce-typing">
           <div className="first-text">
             {"<Introduce>"}
-            <Typing text=" Hello! " delay={1200}/>
+            <Typing text=" Hello! " />
             {"</Introduce>"}
           </div>
           <div className="second-text">
             {"<Introduce>"}
-            <Typing text=" I am Kangin Lee, a Web Developer. " delay={1000} />
+            <Typing text=" I am Kangin Lee, a Web Developer. " />
             {"</Introduce>"}
           </div>
         </section>
@@ -47,14 +49,13 @@ const Introduce = () => {
             </div>
           </Flip>
           <Fade delay={2800} duration={1200}>
-          <div className="scrolldown">
-              <img
-                width={120}
-                src="images/scrolldown.gif"
-              />
-              <div className="introduce-more" style={{fontSize:"0.13em"}}>more</div>
+            <div className="scrolldown">
+              <img width={120} src="images/scrolldown.gif" />
+              <div className="introduce-more" style={{ fontSize: "0.13em" }}>
+                more
+              </div>
             </div>
-            </Fade>
+          </Fade>
         </section>
       </Container>
     </div>

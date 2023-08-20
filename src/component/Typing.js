@@ -1,10 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { useState, useEffect } from "react";
 
-const Typing = ({text, delay}) => {
+const Typing = ({ text }) => {
   return (
     <>
-      <TypeAnimation sequence={[text, delay]} speed={50} repeat={1}/>
+      <TypeAnimation sequence={[text]} speed={50} repeat={1} />
     </>
   );
 };
