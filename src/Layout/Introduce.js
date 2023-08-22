@@ -7,9 +7,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Introduce = () => {
   const menu = ["HOME", "ABOUT ME", "SKILL", "PROJECTS", "ARCHIVING"];
-
+  
   return (
-    <div className="introduce-area">
+    <div id="HOME" className="introduce-area">
       <Container>
         <Fade delay={2000} duration={1500}>
           <header>
@@ -20,7 +20,9 @@ const Introduce = () => {
             <section>
               <ul>
                 {menu.map((item) => (
-                  <li style={{ marginRight: "30px" }}>{item}</li>
+                  <li style={{ marginRight: "30px" }}>
+                    <a href={`#${item}`}>{item}</a>
+                  </li>
                 ))}
               </ul>
               <FontAwesomeIcon icon={faBars} className="bar" />

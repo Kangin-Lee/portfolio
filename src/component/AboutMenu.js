@@ -1,20 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const AboutMenu = ({ icon, title, sub, sub2, sub3, sub4 }) => {
+const AboutMenu = ({ icon, title, sub, sub2 }) => {
   return (
-    <div>
-      <div>
+    <div className="about">
+      <div className="about-icon">
         <FontAwesomeIcon icon={icon} />
       </div>
       <div>
-        <div>{title}</div>
-        <div>
-          <div>{sub}</div>
-          <div>{sub2}</div>
-          <div>{sub3}</div>
-          <div>{sub4}</div>
-        </div>
+        <div className="about-title">{title}</div>
+        <div className="about-sub">{sub}</div>
+        <div>{sub2}</div>
       </div>
     </div>
   );

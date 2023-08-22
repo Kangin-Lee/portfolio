@@ -41,8 +41,10 @@ a{
   display: flex;
   cursor: pointer;
 }
-
-.introduce-area header ul li:hover{
+.introduce-area header a{
+  text-decoration: none;
+}
+.introduce-area header ul li a:hover{
   color: var(--font-color-hover);
   transition: 0.3s;
 }
@@ -197,12 +199,56 @@ a{
   line-height: 1em;
 }
 
+.about{
+  padding: 30px;
+  display: flex;
+  box-shadow: var(--box-shadow);
+  width: 500px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 20px;
+  border: 4px solid black;
+align-items: center;
+}
+
+.about-2pack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-icon{
+  font-size: 4em;
+  margin-right: 30px;
+}
+
+.about-title{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: var(--normal-font-family);
+}
+
+.about-sub{
+  font-size: 1.3em;
+  color: #343541;
+}
+
+.about-active{
+  display: flex;
+
+}
 /* skill---------------------------------------------------------------- */
 .skill-area{
   background-color: #7cc1ac;
   padding: var(--layout-Padding);
 }
 
+/* project------------------------------------------------------------------- */
+.project-area{
+  padding: var(--layout-Padding);
+}
 /* Archiving--------------------------------------------------------- */
 .archiving-area{
   background-color: #f4a09c;
@@ -229,7 +275,7 @@ a{
 }
 
 .archiving-logo{
-  width: 60%;
+  height: 40px;
   margin-bottom: 20px;
 }
 
@@ -239,14 +285,16 @@ a{
   font-size: 1.1em;
 }
 
-.archiving-link{
+.archiving-link a{
   font-family: var(--header-font-family);
   color: #5095e5;
+  text-decoration: none;
 }
 
 .archiving-link:hover{
   text-decoration: underline;
   cursor: pointer;
+  color: #5095e5;
 }
 
 .archiving-github:hover, .archiving-tistory:hover{

@@ -5,7 +5,7 @@ import MenuTitle from "../component/MenuTitle";
 const Skill = () => {
 
   return (
-    <div className="skill-area">
+    <div id="SKILL" className="skill-area">
       <Container>
         <header>
           <MenuTitle title={"SKILL"} />
