@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCheck,
+
   faUser,
   faCakeCandles,
   faPhone,
@@ -53,15 +53,7 @@ const AboutMe = () => {
 
         <div className="about-2pack">
           <div className="univ-area">
-            {/* <div className="about-icon">
-              <FontAwesomeIcon icon={faPencil} />
-            </div>
-            <div>
-              <div className="about-title">UNIV.</div>
-              <div className="about-sub">대전대학교</div>
-              <div>(컴퓨터·정보통신공학과)</div>
-            </div> */}
-            <AboutMe
+            <AboutMenu
               icon={faPencil}
               title={"UNIV."}
               sub={"대전대학교"}
@@ -71,19 +63,16 @@ const AboutMe = () => {
 
           <div className="about active-area">
             <div className="about-icon">
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faFilePen} />
             </div>
             <div>
               <div className="about-title">ACTIVITIES</div>
               <div style={{ fontSize: "1.1em" }} className="about-sub">
                 <div style={{ marginBottom: "10px" }} className="about-active">
                   <div>● (주) 지엔소프트 인턴</div>
-                  {/* <div>2023.01.02 ~ 2023.02.28</div> */}
                 </div>
                 <div className="about-active">
                   <div>● 온디바이스 AI 개발자 과정 수료</div>
-                  {/* <div>2023.08.01 ~ 2023.10.27</div> */}
-                  {/* <div>온디바이스 개발자 과정 수료</div> */}
                 </div>
               </div>
             </div>

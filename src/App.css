@@ -1,35 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Black&display=swap');
-:root{
-  --font-color:white;
-  --font-color-hover:gray;
-  --header-font-family: 'Abel', sans-serif;
-  --normal-font-family: 'Archivo Black', sans-serif;
-  --footer-back-color:#343541;
-  --box-shadow:rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  --title-font-size:3em;
-  --layout-Padding:50px 0;
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Black&family=Do+Hyeon&display=swap");
+:root {
+  --font-color: white;
+  --font-color-hover: gray;
+  --header-font-family: "Abel", sans-serif;
+  --normal-font-family: "Do Hyeon", sans-serif;
+  --footer-back-color: #343541;
+  --box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  --title-font-size: 3em;
+  --layout-Padding: 50px 0;
 }
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   color: white;
 }
 
 /* 소개 파트-------------------------------------------------------- */
-.introduce-area{
+.introduce-area {
   height: 100vh;
   background-color: #1c1813;
   color: var(--font-color);
 }
 
-.bar{
+.bar {
   font-size: 1.5em;
   display: none;
 }
 
-.introduce-area header{
+.introduce-area header {
   font-family: var(--header-font-family);
   font-size: 2em;
   padding-top: 20px;
@@ -37,19 +39,19 @@ a{
   justify-content: space-between;
   align-items: center;
 }
-.introduce-area header ul{
+.introduce-area header ul {
   display: flex;
   cursor: pointer;
 }
-.introduce-area header a{
+.introduce-area header a {
   text-decoration: none;
 }
-.introduce-area header ul li a:hover{
+.introduce-area header ul li a:hover {
   color: var(--font-color-hover);
   transition: 0.3s;
 }
 
-.introduce-typing{
+.introduce-typing {
   font-size: 3em;
   font-family: var(--header-font-family);
   display: flex;
@@ -60,7 +62,7 @@ a{
   height: 60vh;
 }
 
-.introduce-body{
+.introduce-body {
   font-family: var(--normal-font-family);
   font-size: 7rem;
   font-weight: bold;
@@ -70,126 +72,179 @@ a{
   justify-content: space-between;
 }
 
-.scrolldown{
+.scrolldown {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 0.40em;
+  line-height: 0.4em;
   align-self: flex-end;
 }
 
-@media ( max-width: 1400px ) {
-  .introduce-typing{
+@media (max-width: 1400px) {
+  .introduce-typing {
     font-size: 2.5em;
   }
 }
 
-@media ( max-width: 1200px ) {
-  .introduce-area header{
+@media (max-width: 1200px) {
+  .introduce-area header {
     font-size: 1.6em;
   }
-  .introduce-typing{
+  .introduce-typing {
     font-size: 2em;
   }
-  .introduce-body{
+  .introduce-body {
     font-size: 6em;
   }
 }
 
-@media ( max-width: 992px ) {
-  .introduce-area header{
+@media (max-width: 992px) {
+  .introduce-area header {
     font-size: 1.4em;
   }
-  .introduce-typing{
+  .introduce-typing {
     font-size: 1.6em;
   }
-  .introduce-body{
+  .introduce-body {
     font-size: 5em;
   }
 }
 
-@media ( max-width: 768px ) {
-  .title{
+@media (max-width: 768px) {
+  .title {
     display: none;
   }
-  .introduce-area header{
+  .introduce-area header {
     font-size: 1.2em;
   }
-  .introduce-typing{
+  .introduce-typing {
     font-size: 1.3em;
     height: 65vh;
   }
 
-  .introduce-body{
+  .introduce-body {
     font-size: 4em;
   }
-  .introduce-more{
-    display:none;
+  .introduce-more {
+    display: none;
   }
 
-  .archiving-section{
+  .archiving-section {
     flex-direction: column;
   }
 
-  .archiving-github{
+  .archiving-github {
     margin-bottom: 30px;
     width: 278px;
   }
-
 }
 
-@media ( max-width: 535px ) {
-  .introduce-typing{
+@media (max-width: 535px) {
+  .introduce-typing {
     font-size: 1.1em;
     height: 70vh;
   }
 
-  .title{
+  .title {
     display: block;
   }
 
-  .bar{
+  .bar {
     display: block;
   }
 
-  .first-text{
+  .first-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .introduce-area header ul{
+  .introduce-area header ul {
     display: none;
   }
 
-  .second-text{
+  .second-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .introduce-body{
+  .introduce-body {
     font-size: 3em;
   }
-  .scrolldown{
+  .scrolldown {
     display: none;
   }
 }
 
-@media ( max-width: 400px ) {
-  .introduce-typing{
+@media (max-width: 400px) {
+  .introduce-typing {
     height: 60vh;
   }
 }
 
+/* text------------------------------------------------------------------- */
+.text-area {
+  height: 600px;
+  background-color: #1c1813;
+  color: white;
+  font-family: var(--normal-font-family);
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-header {
+  font-size: 10em;
+  padding-top: 200px;
+  line-height: 0.2em;
+}
+
+.text-section {
+  width: 70%;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 2em;
+}
+
+.text-scroll-down {
+  font-size: 1.2em;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .text-section {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 995px) {
+  .text-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 486px) {
+  .text-section {
+    font-size: 1.5em;
+  }
+  .text-scroll-down {
+    font-size: 0.8em;
+  }
+}
+
 /* aboutme--------------------------------------------------------------- */
-.aboutme-area{
+.aboutme-area {
   padding: var(--layout-Padding);
 }
 
-.menutitle{
+.menutitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,7 +254,7 @@ a{
   line-height: 1em;
 }
 
-.about{
+.about {
   padding: 30px;
   display: flex;
   box-shadow: var(--box-shadow);
@@ -208,64 +263,120 @@ a{
   margin: 30px;
   border-radius: 20px;
   border: 4px solid black;
-align-items: center;
+  align-items: center;
+  transition: 0.5s;
 }
-
-.about-2pack{
+.about:hover{
+  transition: 0.5s;
+  box-shadow: none;
+  transform: translateY(2px);
+}
+.about-2pack {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.about-icon{
+.about-icon {
   font-size: 4em;
   margin-right: 30px;
 }
 
-.about-title{
-  font-size: 2em;
+.about-title {
+  font-size: 2.2em;
   font-weight: bold;
   margin-bottom: 10px;
   font-family: var(--normal-font-family);
 }
 
-.about-sub{
-  font-size: 1.3em;
+.about-sub {
+  font-size: 1.5em;
   color: #343541;
+  font-family: var(--normal-font-family);
 }
 
-.about-active{
+.about-active {
   display: flex;
+}
 
+@media (max-width: 768px) {
+  .about {
+    width: 400px;
+  }
+  .about-icon{
+    font-size: 3em;
+  }
+  .about-sub2{
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 505px) {
+  .about {
+    width: 320px;
+  }
+  .about-icon{
+    display: none;
+  }
+  .about-title {
+    font-size: 1.8em;
+  }
+  .about-sub {
+    font-size: 1.2em;
+  }
+  .about-sub2{
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 423px) {
+  .about {
+    width: 200px;
+  }
+  .about-icon{
+    display: none;
+  }
+  .about-title {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .about-sub {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .about-sub2{
+    font-size: 0.5em;
+  }
 }
 /* skill---------------------------------------------------------------- */
-.skill-area{
+.skill-area {
   background-color: #7cc1ac;
   padding: var(--layout-Padding);
 }
 
 /* project------------------------------------------------------------------- */
-.project-area{
+.project-area {
   padding: var(--layout-Padding);
 }
 /* Archiving--------------------------------------------------------- */
-.archiving-area{
+.archiving-area {
   background-color: #f4a09c;
   padding: var(--layout-Padding);
 }
 
-.archiving-area header{
+.archiving-area header {
   margin-bottom: 70px;
 }
 
-.archiving-section{
+.archiving-section {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7%;
 }
-.archiving-github, .archiving-tistory{
+.archiving-github,
+.archiving-tistory {
   background-color: white;
   border-radius: 20px;
   width: 40%;
@@ -274,67 +385,68 @@ align-items: center;
   transition: 0.5s;
 }
 
-.archiving-logo{
+.archiving-logo {
   height: 40px;
   margin-bottom: 20px;
 }
 
-.archiving-link, .archiving-text{
+.archiving-link,
+.archiving-text {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 1.1em;
 }
 
-.archiving-link a{
+.archiving-link a {
   font-family: var(--header-font-family);
   color: #5095e5;
   text-decoration: none;
 }
 
-.archiving-link:hover{
+.archiving-link:hover {
   text-decoration: underline;
   cursor: pointer;
   color: #5095e5;
 }
 
-.archiving-github:hover, .archiving-tistory:hover{
+.archiving-github:hover,
+.archiving-tistory:hover {
   transition: 0.5s;
   box-shadow: none;
   transform: translateY(2px);
 }
-.preview div{
+.preview div {
   font-family: var(--header-font-family);
   font-weight: bold;
   font-size: 1.5em;
-
 }
-.preview img{
+.preview img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   width: 100%;
 }
 
 /* footer----------------------------------------------------------- */
-footer{
+footer {
   background-color: var(--footer-back-color);
   padding: var(--layout-Padding);
 }
 
-.footer-area{
+.footer-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.footer-brands{
+.footer-brands {
   list-style: none;
   display: flex;
   font-size: 1.8em;
   padding: 0;
 }
 
-.footer-brands li{
+.footer-brands li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,18 +457,19 @@ footer{
   color: white;
   background-color: var(--footer-back-color);
   box-shadow: var(--box-shadow);
+  transition: 0.5s;
 }
 
-.footer-brands li:hover{
+.footer-brands li:hover {
   color: var(--footer-back-color);
-  border-color:var(--footer-back-color) ;
+  border-color: var(--footer-back-color);
   background-color: white;
   transition: 0.5s;
   box-shadow: none;
   transform: translateY(2px);
 }
 
-.footer-copyright{
+.footer-copyright {
   font-weight: bold;
   font-size: 1.2em;
   color: white;
