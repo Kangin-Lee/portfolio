@@ -26,14 +26,6 @@ const Skill = () => {
     },
   };
 
-  // const skillArray = ({ width, src, title }) => {
-  //   return (
-  //     <div className="skill-logo">
-  //       <img width={width} src={src} />
-  //       <h5>{title}</h5>
-  //     </div>
-  //   );
-  // };
   return (
     <div id="SKILL" className="skill-area">
       <Container>
