@@ -486,6 +486,49 @@ a {
   font-family: var(--header-font-family);
   font-weight: bold;
 }
+.projectItem-right a{
+  color: #5095e5;
+  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projectItem-right h6{
+  font-size: 1.1em;
+font-family: var(--header-font-family);
+}
+
+.project-skillList{
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+}
+
+.project-skillList li{
+  padding: 3px 10px;
+  border: 3px solid #5095e5;
+  color: #5095e5;
+  margin: 5px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 0.5s;
+}
+
+.project-skillList li:hover{
+  transition: 0.5s;
+  box-shadow: none;
+  transform: translateY(2px);
+  cursor: pointer;
+}
+
+.projectItem-right a:hover{
+  text-decoration: underline;
+}
+
+.projectItem-right h4{
+  font-family: var(--normal-font-family);
+}
 
 /* Archiving--------------------------------------------------------- */
 .archiving-area {

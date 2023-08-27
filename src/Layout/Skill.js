@@ -91,14 +91,19 @@ const Skill = () => {
                   sub="일관된 디자인과 반응형 레이아웃을 제공하며, 간결한 코드 작성으로 빠르고 효율적인 UI 구축을 실현했습니다."
                 />
                 <SkillList
-                  src="images/skills/jquery.png"
-                  title="JQUERY"
-                  sub="인턴 생활을 할 때 사용해 봤으며, 웹 요소를 동적으로 조작하고 사용자와의 인터랙션을 강화시켜 사용성을 향상시켰습니다. "
-                />
-                <SkillList
                   src="images/skills/tensorflow.png"
                   title="TENSORFLOW"
                   sub="텐서플로우를 활용하여 머신러닝 및 딥러닝 프로젝트를 진행한 경험이 있습니다."
+                />
+                <SkillList
+                  src="images/skills/scikitLearn.png"
+                  title="SCIKIT-LEARN"
+                  sub="데이터 전처리부터 모델 학습 및 평가까지 다양한 머신러닝 작업을 수행하며, 이를 통해 기본적인 머신러닝 개념을 익히고 실전 경험을 쌓았습니다"
+                />
+                <SkillList
+                  src="images/skills/jquery.png"
+                  title="JQUERY"
+                  sub="인턴 생활을 할 때 사용해 봤으며, 웹 요소를 동적으로 조작하고 사용자와의 인터랙션을 강화시켜 사용성을 향상시켰습니다. "
                 />
                 <SkillList
                   src="images/skills/node.png"

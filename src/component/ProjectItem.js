@@ -1,6 +1,15 @@
 import React from "react";
 
 const ProjectItem = () => {
+  const smartMirror = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Bootstrap",
+    "Node.js",
+    "VSCode",
+  ];
   return (
     <div className="project-item">
       <section className="projectItem-left">
@@ -20,19 +29,40 @@ const ProjectItem = () => {
       <section className="projectItem-right">
         <div>
           <h2>Project Name</h2>
-          <h4>Smart Stylist</h4>
+          <h4>▶ Smart Stylist</h4>
         </div>
         <div>
           <h2>Periods of Development</h2>
-          <h4>23.03 ~ 23.06</h4>
+          <h4>▶ 2023.03 ~ 2023.06</h4>
         </div>
         <div>
           <h2>Skill / IDE</h2>
-          <h4>2023.03 ~ 2023.06</h4>
+          <h4>
+            <ul className="project-skillList">
+              {smartMirror.map((item) => (
+                <li>#{item}</li>
+              ))}
+            </ul>
+          </h4>
         </div>
         <div>
           <h2>CODE(Github URL)</h2>
-          <h4>23.03 ~ 23.06</h4>
+          <div>
+            <h4>▶ 소스코드</h4>
+            <h6>
+              <a href="https://github.com/Kangin-Lee/smartMirror-Stylist">
+                https://github.com/Kangin-Lee/smartMirror-Stylist
+              </a>
+            </h6>
+          </div>
+          <div>
+            <h4>▶ 웹 페이지 주소</h4>
+            <h6>
+              <a href="https://smartmirror-stylist.netlify.app/">
+                https://smartmirror-stylist.netlify.app/
+              </a>
+            </h6>
+          </div>
         </div>
       </section>
     </div>
