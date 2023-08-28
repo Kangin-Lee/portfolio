@@ -16,7 +16,7 @@ const Archiving = () => {
             <div className="archiving-github">
               <img src="images/github.png" className="archiving-logo" />
               <div className="archiving-link">
-                <a href="https://github.com/Kangin-Lee">
+                <a href="https://github.com/Kangin-Lee" target="_blank">
                   github.com/Kangin-Lee
                 </a>
               </div>
@@ -34,7 +34,7 @@ const Archiving = () => {
             <div className="archiving-tistory">
               <img src="images/tistory.png" className="archiving-logo" />
               <div className="archiving-link">
-                <a href="https://conquer-it.tistory.com/">
+                <a href="https://conquer-it.tistory.com/" target="_blank">
                   conquer-it.tistory.com
                 </a>
               </div>

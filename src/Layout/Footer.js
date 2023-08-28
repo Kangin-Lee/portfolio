@@ -8,18 +8,18 @@ const Footer = () => {
       <Container>
         <div className="footer-area">
           <ul className="footer-brands">
-            <a href="https://www.instagram.com/kanginlee9925/">
+            <a href="https://www.instagram.com/kanginlee9925/" target="_blank">
               <li>
                 <SiInstagram />
               </li>
             </a>
-            <a href="https://conquer-it.tistory.com/">
+            <a href="https://conquer-it.tistory.com/" target="_blank">
               <li>
                 <SiTistory />
               </li>
             </a>
 
-            <a href="https://github.com/Kangin-Lee">
+            <a href="https://github.com/Kangin-Lee" target="_blank">
               <li>
                 <SiGithub />
               </li>

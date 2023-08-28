@@ -27,15 +27,15 @@ const ProjectItem = () => {
       </section>
       <div className="project-line"></div>
       <section className="projectItem-right">
-        <div>
+        <div className="project-list">
           <h2>Project Name</h2>
           <h4>▶ Smart Stylist</h4>
         </div>
-        <div>
+        <div className="project-list">
           <h2>Periods of Development</h2>
           <h4>▶ 2023.03 ~ 2023.06</h4>
         </div>
-        <div>
+        <div className="project-list">
           <h2>Skill / IDE</h2>
           <h4>
             <ul className="project-skillList">
@@ -45,12 +45,15 @@ const ProjectItem = () => {
             </ul>
           </h4>
         </div>
-        <div>
+        <div className="project-list">
           <h2>CODE(Github URL)</h2>
           <div>
             <h4>▶ 소스코드</h4>
             <h6>
-              <a href="https://github.com/Kangin-Lee/smartMirror-Stylist">
+              <a
+                href="https://github.com/Kangin-Lee/smartMirror-Stylist"
+                target="_blank"
+              >
                 https://github.com/Kangin-Lee/smartMirror-Stylist
               </a>
             </h6>
@@ -58,7 +61,10 @@ const ProjectItem = () => {
           <div>
             <h4>▶ 웹 페이지 주소</h4>
             <h6>
-              <a href="https://smartmirror-stylist.netlify.app/">
+              <a
+                href="https://smartmirror-stylist.netlify.app/"
+                target="_blank"
+              >
                 https://smartmirror-stylist.netlify.app/
               </a>
             </h6>

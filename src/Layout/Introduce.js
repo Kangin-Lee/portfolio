@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Introduce = () => {
   const menu = ["HOME", "ABOUT ME", "SKILL", "PROJECTS", "ARCHIVING"];
-  
+
   return (
     <div id="HOME" className="introduce-area">
       <Container>
