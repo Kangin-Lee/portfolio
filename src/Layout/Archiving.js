@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 import MenuTitle from "../component/MenuTitle";
 import Fade from "react-reveal/Fade";
 

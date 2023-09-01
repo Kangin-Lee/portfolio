@@ -533,6 +533,10 @@ font-family: var(--header-font-family);
   font-family: var(--normal-font-family);
 }
 
+.swiper-pagination-horizontal{
+  font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   .project-item{
     flex-direction: column;
