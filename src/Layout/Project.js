@@ -27,6 +27,7 @@ const Project = () => {
     "CSS",
     "JavaScript",
     "JQuery",
+    "JSP",
     "Spring",
     "MySQL",
     "Bootstrap",
@@ -55,10 +56,21 @@ const Project = () => {
   const projectInfoData = [
     // 데이터 배열
     {
-      projectNum: "# PROJECT 1",
+      projectNum: "# PROJECT 2",
+      projectImg: ["images/project/hnm.gif"],
+      projectExplain:
+        "React를 연습하며 H&M 홈페이지 클론을 만들어 보았습니다. 이 프로젝트에서는 JSON-Server를 활용하여 데이터 관리 및 RESTful API 구현을 연습했습니다. 기능은 다소 제한적이었지만 React를 활용한 데이터 관리와 라우팅에 대한 학습 경험이었습니다. 이러한 경험을 통해 웹 개발에 대한 흥미와 실력 향상을 도모하고 있으며, 앞으로 더 다양하고 복잡한 프로젝트에 도전하며 성장하고자 합니다.",
+      projectName: "H&M Clone Site",
+      developmentPeriods: "2023.02 ~ 2023.03",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "VSCode"],
+      githubUrl: "https://github.com/Kangin-Lee/HnM_clone",
+      webPageUrl: "https://kangin-hnm.netlify.app/",
+    },
+    {
+      projectNum: "# PROJECT 3",
       projectImg: ["images/project/stylist.gif"],
       projectExplain:
-        "캡스톤 디자인 시간에 제작한 웹 사이트입니다. 패션에 대한 스마트 미러를\n만들면서 그 제품과 연동이 되는 웹페이지를 만들 목적으로 구축했습니다.\nAPI로 날씨를 받아와 보여주고 오늘 날씨에 따른 옷차림과 컬러매치,\n본인의 옷장에 있는 옷으로 코디하는 기능을 만들었습니다. 연습으로\n간단한 프로젝트에서만 사용하던 React를 처음으로 실제 프로젝트에\n사용해서 잘 만들고 싶은 욕심이 있었습니다. 여러가지 많은 툴을 사용해\n봄으로써 실력 향상에 좋은 발판이 되었다고 생각합니다.",
+        "캡스톤 디자인 시간에 제작한 웹 사이트입니다. 패션에 대한 스마트 미러를 만들면서 그 제품과 연동이 되는 웹페이지를 만들 목적으로 구축했습니다. API로 날씨를 받아와 보여주고 오늘 날씨에 따른 옷차림과 컬러매치, 본인의 옷장에 있는 옷으로 코디하는 기능을 만들었습니다. 연습으로 간단한 프로젝트에서만 사용하던 React를 처음으로 실제 프로젝트에 사용해서 잘 만들고 싶은 욕심이 있었습니다. 여러가지 많은 툴을 사용해 봄으로써 실력 향상에 좋은 발판이 되었다고 생각합니다.",
       projectName: "Smart Stylist",
       developmentPeriods: "2023.03 ~ 2023.06",
       skills: [
@@ -74,15 +86,23 @@ const Project = () => {
       webPageUrl: "https://smartmirror-stylist.netlify.app/",
     },
     {
-      projectNum: "# PROJECT 2",
-      projectImg: ["images/project/hnm.gif"],
+      projectNum: "# PROJECT 4",
+      projectImg: ["images/project/portfolio.gif"],
       projectExplain:
-        "캡스톤 디자인 시간에 제작한 웹 사이트입니다. 패션에 대한 스마트 미러를\n만들면서 그 제품과 연동이 되는 웹페이지를 만들 목적으로 구축했습니다.\nAPI로 날씨를 받아와 보여주고 오늘 날씨에 따른 옷차림과 컬러매치,\n본인의 옷장에 있는 옷으로 코디하는 기능을 만들었습니다. 연습으로\n간단한 프로젝트에서만 사용하던 React를 처음으로 실제 프로젝트에\n사용해서 잘 만들고 싶은 욕심이 있었습니다. 여러가지 많은 툴을 사용해\n봄으로써 실력 향상에 좋은 발판이 되었다고 생각합니다.",
-      projectName: "H&M Clone",
-      developmentPeriods: "2023.02 ~ 2023.03",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "VSCode"],
-      githubUrl: "https://github.com/Kangin-Lee/HnM_clone",
-      webPageUrl: "https://kangin-hnm.netlify.app/",
+        "종이로 제출하는 포트폴리오처럼 남들과 똑같은 포트폴리오를 따르기보다, 나만의 독특한 포트폴리오로 제 자신을 표현해보고자 만들어봤습니다. 첫 화면은 첫 인상으로 무뚝뚝해 보이는 저를 표현하였고, 밑으로 내려갈 수록 밝은 색상을 사용하여 알면 알수록 밝은 저의 모습을 연상시켰습니다. 이러한 디자인과 레이아웃을 통해 제 자신을 독특하게 표현하고, 포트폴리오를 통해 더 깊이 이해할 수 있도록 구성하였습니다.",
+      projectName: "KANGIN PORTFOLIO",
+      developmentPeriods: "2023.08 ~ 2023.10",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Bootstrap",
+        "반응형",
+        "VSCode",
+      ],
+      githubUrl: "https://github.com/Kangin-Lee/portfolio",
+      webPageUrl: "https://kangin-portfolio.netlify.app/",
     },
   ];
   return (
@@ -94,13 +114,10 @@ const Project = () => {
 
         <section>
           <Carousel responsive={responsive} className="project-carousel">
-            {projectInfoData.map((projectInfo) => (
-              <ProjectItem projectInfo={projectInfo} />
-            ))}
             {/* Sprint Board part========================================= */}
             <div className="project-item">
               <section className="projectItem-left">
-                <h1 className="project-seq"># PROJECT 3</h1>
+                <h1 className="project-seq"># PROJECT 1</h1>
                 <Swiper
                   pagination={{
                     type: "fraction",
@@ -120,14 +137,15 @@ const Project = () => {
                   ))}
                 </Swiper>
                 <p>
-                  캡스톤 디자인 시간에 제작한 웹 사이트입니다. 패션에 대한
-                  스마트 미러를\n만들면서 그 제품과 연동이 되는 웹페이지를 만들
-                  목적으로 구축했습니다.\nAPI로 날씨를 받아와 보여주고 오늘
-                  날씨에 따른 옷차림과 컬러매치,\n본인의 옷장에 있는 옷으로
-                  코디하는 기능을 만들었습니다. 연습으로\n간단한 프로젝트에서만
-                  사용하던 React를 처음으로 실제 프로젝트에\n사용해서 잘 만들고
-                  싶은 욕심이 있었습니다. 여러가지 많은 툴을 사용해\n봄으로써
-                  실력 향상에 좋은 발판이 되었다고 생각합니다.
+                  인턴 기간 중, 전자정부프레임워크를 활용한 게시판을
+                  개발했습니다. 로그인, 아이디/비밀번호 찾기, 회원가입, 게시판
+                  기능을 구현했고, JQuery와 Spring을 처음 사용해 보았습니다.
+                  초기에는 어려움을 겪었지만 이 경험을 통해 실력이
+                  향상되었습니다. 웹 개발, 데이터베이스 상호작용, 보안, 사용자
+                  경험 등 다양한 측면에서 배우고 성장한 경험이었습니다. 이를
+                  통해 학습과 성장에 대한 열정을 더욱 확고히 했습니다. 앞으로도
+                  끊임없는 도전을 통해 기술 스택을 확장하고 성공을
+                  이끌어내겠습니다.
                 </p>
               </section>
               <div className="project-line"></div>
@@ -152,6 +170,9 @@ const Project = () => {
                 </div>
               </section>
             </div>
+            {projectInfoData.map((projectInfo) => (
+              <ProjectItem projectInfo={projectInfo} />
+            ))}
           </Carousel>
         </section>
       </Container>
