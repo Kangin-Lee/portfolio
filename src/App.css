@@ -197,6 +197,109 @@ a {
   }
 }
 
+/* 햄버거 메뉴----------------------------------------------------- */
+.hamburger-menu{
+  display:none;
+}
+
+@media (max-width: 535px) {
+  .hamburger-menu{
+    display:block;
+  }
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  right: 20px; /* 좌측 상단이 아니라 우측 상단에 햄버거 아이콘을 배치합니다. */
+  top: 30px; /* 좌측 상단이 아니라 우측 상단에 햄버거 아이콘을 배치합니다. */
+
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+  transition: 0.3s;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: gray;
+  transition: 0.3s;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  z-index: 10000;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  display: none;
+}
+
+.menu-list{
+  font-family: var(--header-font-family);
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.menu-list li{
+  margin: 30px 0;
+  
+}
+
+.menu-list li a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu-list li a:hover{
+  color: gray;
+  transition: 0.3s;
+}
+
 /* text------------------------------------------------------------------- */
 .text-area {
   height: 600px;
@@ -250,6 +353,8 @@ a {
     font-size: 0.8em;
   }
 }
+
+
 
 /* aboutme--------------------------------------------------------------- */
 .aboutme-area {
@@ -667,6 +772,29 @@ a {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   width: 100%;
+}
+
+@media (max-width:768px) {
+  .archiving-section{
+    flex-direction:column;
+  }
+
+  .archiving-github, .archiving-tistory{
+    width: 400px;
+  }
+}
+
+@media (max-width:450px) {
+  .archiving-github, .archiving-tistory{
+    width: 100%;
+  }
+  .archiving-text,.archiving-link{
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .archiving-logo{
+    height: 30px;
+  }
 }
 
 /* footer----------------------------------------------------------- */

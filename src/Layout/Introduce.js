@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import {Flip,Fade } from "react-reveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import HamburgerMenu from "../component/HamburgerMenu";
 
 const Introduce = () => {
   const menu = ["HOME", "ABOUT ME", "SKILL", "PROJECTS", "ARCHIVING"];
@@ -25,9 +26,9 @@ const Introduce = () => {
                   </li>
                 ))}
               </ul>
-              <FontAwesomeIcon icon={faBars} className="bar" />
             </section>
           </header>
+          <HamburgerMenu className="nav-hamburger" />
         </Fade>
 
         <section className="introduce-typing">
