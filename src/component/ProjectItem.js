@@ -5,7 +5,7 @@ const ProjectItem = ({ projectInfo }) => {
     <div className="project-item">
       <section className="projectItem-left">
         <h1 className="project-seq">{projectInfo.projectNum}</h1>
-        <img width={600} src={projectInfo.projectImg} />
+        <img width={600} src={projectInfo.projectImg} className="project-img" />
         <p>{projectInfo.projectExplain}</p>
       </section>
       <div className="project-line"></div>

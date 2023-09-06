@@ -62,7 +62,15 @@ const Project = () => {
         "React를 연습하며 H&M 홈페이지 클론을 만들어 보았습니다. 이 프로젝트에서는 JSON-Server를 활용하여 데이터 관리 및 RESTful API 구현을 연습했습니다. 기능은 다소 제한적이었지만 React를 활용한 데이터 관리와 라우팅에 대한 학습 경험이었습니다. 이러한 경험을 통해 웹 개발에 대한 흥미와 실력 향상을 도모하고 있으며, 앞으로 더 다양하고 복잡한 프로젝트에 도전하며 성장하고자 합니다.",
       projectName: "H&M Clone Site",
       developmentPeriods: "2023.02 ~ 2023.03",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "VSCode"],
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Bootstrap",
+        "VSCode",
+        "반응형",
+      ],
       githubUrl: "https://github.com/Kangin-Lee/HnM_clone",
       webPageUrl: "https://kangin-hnm.netlify.app/",
     },
@@ -89,7 +97,7 @@ const Project = () => {
       projectNum: "# PROJECT 4",
       projectImg: ["images/project/portfolio.gif"],
       projectExplain:
-        "종이로 제출하는 포트폴리오처럼 남들과 똑같은 포트폴리오를 따르기보다, 나만의 독특한 포트폴리오로 제 자신을 표현해보고자 만들어봤습니다. 첫 화면은 첫 인상으로 무뚝뚝해 보이는 저를 표현하였고, 밑으로 내려갈 수록 밝은 색상을 사용하여 알면 알수록 밝은 저의 모습을 연상시켰습니다. 이러한 디자인과 레이아웃을 통해 제 자신을 독특하게 표현하고, 포트폴리오를 통해 더 깊이 이해할 수 있도록 구성하였습니다.",
+        "종이로 제출하는 포트폴리오처럼 남들과 똑같은 포트폴리오를 따르기보다, 나만의 독특한 포트폴리오로 제 자신을 표현해보고자 만들어봤습니다. 다른 파트로 이동할 때마다 다양한 색감을 사용하는 디자인으로 저의 다양성과 프로젝트에 대한 열정을 나타내보았습니다. 하나의 분야에만 제한되지 않고 여러 분야를 다양하게 도전하면서 더 큰 목표를 향해 나아가겠다는 다짐입니다.",
       projectName: "KANGIN PORTFOLIO",
       developmentPeriods: "2023.08 ~ 2023.10",
       skills: [
