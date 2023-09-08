@@ -357,6 +357,22 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 
 /* aboutme--------------------------------------------------------------- */
+.about-list{
+  list-style: circle;
+}
+.vertical-timeline-element-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-timeline h3,.about-timeline h4{
+  font-weight: bold;
+}
+.vertical-timeline-element-subtitle{
+  padding-top: 16px;
+}
+
 .aboutme-area {
   padding: var(--layout-Padding);
   background-color: #b9e3ea;

@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import AboutMenu from "../component/AboutMenu";
 import MenuTitle from "../component/MenuTitle";
+import TimeLine from "../component/TimeLine";
 
 const AboutMe = () => {
   return (
@@ -78,6 +79,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
+        <TimeLine />
       </Container>
     </div>
   );
