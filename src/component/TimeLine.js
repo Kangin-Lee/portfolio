@@ -33,7 +33,7 @@ const TimeLine = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
-          date="2006 - 2017"
+          date="2006 ~ 2017"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -53,7 +53,7 @@ const TimeLine = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
-          date="2018.03"
+          date="2018.03 ~"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -73,7 +73,7 @@ const TimeLine = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
-          date="2023.01 - 2023.02"
+          date="2023.01 ~ 2023.02"
           iconStyle={{
             background: "rgb(33, 150, 243)",
             color: "#fff",
@@ -95,7 +95,7 @@ const TimeLine = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
-          date="2023.08 - 2023.10"
+          date="2023.08 ~ 2023.10"
           iconStyle={{
             background: "rgb(233, 30, 99)",
             color: "#fff",
@@ -119,7 +119,7 @@ const TimeLine = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
-          date="2024.02"
+          date="~ 2024.02"
           iconStyle={{
             background: "rgb(233, 30, 99)",
             color: "#fff",

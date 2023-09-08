@@ -360,6 +360,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .about-list{
   list-style: circle;
 }
+.about-list li{
+  margin: 10px 0;
+  font-family: var(--normal-font-family);
+}
 .vertical-timeline-element-icon{
   display: flex;
   align-items: center;
@@ -368,6 +372,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .about-timeline h3,.about-timeline h4{
   font-weight: bold;
+  font-family: var(--normal-font-family);
+}
+
+.about-timeline p{
+  font-family: var(--normal-font-family);
 }
 .vertical-timeline-element-subtitle{
   padding-top: 16px;
@@ -388,102 +397,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   line-height: 1em;
 }
 
-.about {
-  padding: 30px;
-  display: flex;
-  box-shadow: var(--box-shadow);
-  width: 500px;
-  height: 200px;
-  margin: 30px;
-  border-radius: 20px;
-  border: 4px solid black;
-  align-items: center;
-  transition: 0.5s;
-  background-color: white;
-}
-.about:hover {
-  transition: 0.5s;
-  box-shadow: none;
-  transform: translateY(2px);
-}
-.about-2pack {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.about-icon {
-  font-size: 4em;
-  margin-right: 30px;
-}
-
-.about-title {
-  font-size: 2.2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-family: var(--header-font-family);
-}
-
-.about-sub {
-  font-size: 1.5em;
-  color: #343541;
-  font-family: var(--normal-font-family);
-}
-
-.about-active {
-  display: flex;
-}
-
-@media (max-width: 768px) {
-  .about {
-    width: 400px;
-  }
-  .about-icon {
-    font-size: 3em;
-  }
-  .about-sub2 {
-    font-size: 1em;
-  }
-}
-
-@media (max-width: 505px) {
-  .about {
-    width: 320px;
-  }
-  .about-icon {
-    display: none;
-  }
-  .about-title {
-    font-size: 1.8em;
-  }
-  .about-sub {
-    font-size: 1.2em;
-  }
-  .about-sub2 {
-    font-size: 0.5em;
-  }
-}
-
-@media (max-width: 423px) {
-  .about {
-    width: 200px;
-  }
-  .about-icon {
-    display: none;
-  }
-  .about-title {
-    font-size: 1.8em;
-    text-align: center;
-  }
-  .about-sub {
-    font-size: 1.2em;
-    text-align: center;
-  }
-  .about-sub2 {
-    font-size: 0.5em;
-  }
-}
 /* skill---------------------------------------------------------------- */
 .skill-area {
   background-color: #7cc1ac;
