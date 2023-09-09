@@ -397,7 +397,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
   line-height: 1em;
 }
 
-
+.vertical-timeline-element-title .svg-inline--fa{
+  margin-right: 7px;
+}
 /* skill---------------------------------------------------------------- */
 .skill-area {
   background-color: #7cc1ac;
@@ -479,6 +481,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .flip-sub {
   padding: 10px 20px 0 20px;
+}
+.skill-area section .item-hover{
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--normal-font-family);
+  font-size: 1.2em;
+  margin: 0;
 }
 /* project------------------------------------------------------------------- */
 .project-area {
@@ -614,6 +623,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
   .mySwiper{
     width: 480px;
+
   }
   .swiper-slide{
     width: 480px;

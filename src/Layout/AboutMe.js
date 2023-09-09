@@ -1,16 +1,5 @@
 import React from 'react'
 import { Container } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-
-  faUser,
-  faCakeCandles,
-  faPhone,
-  faEnvelope,
-  faPencil,
-  faFilePen,
-} from "@fortawesome/free-solid-svg-icons";
-import AboutMenu from "../component/AboutMenu";
 import MenuTitle from "../component/MenuTitle";
 import TimeLine from "../component/TimeLine";
 

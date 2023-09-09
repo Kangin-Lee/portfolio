@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Typing from "../component/Typing";
 import { Container } from "react-bootstrap";
-import {Flip,Fade } from "react-reveal";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Flip, Fade } from "react-reveal";
 import HamburgerMenu from "../component/HamburgerMenu";
 
 const Introduce = () => {

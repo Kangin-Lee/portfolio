@@ -4,6 +4,15 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUser,
+  faSchool,
+  faBuildingColumns,
+  faLaptopCode,
+  faBuilding,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 
 const TimeLine = () => {
   return (
@@ -20,7 +29,10 @@ const TimeLine = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<img width={70} src="images/hello.png" />}
         >
-          <h3 className="vertical-timeline-element-title">소개</h3>
+          <h3 className="vertical-timeline-element-title">
+            <FontAwesomeIcon icon={faUser} />
+            소개
+          </h3>
 
           <p>안녕하세요! 이강인입니다. 간단한 제 정보입니다.</p>
           <ul className="about-list">
@@ -40,14 +52,18 @@ const TimeLine = () => {
           }}
           icon={<img width={70} src="images/pen.png" />}
         >
-          <h3 className="vertical-timeline-element-title">학창시절</h3>
+          <h3 className="vertical-timeline-element-title">
+            <FontAwesomeIcon icon={faSchool} />
+            학창시절
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
             초등학생부터 고등학생까지
           </h4>
           <p>
-            학창 시절부터 조용하면서도 성실한 성격으로, 초등학교부터
-            고등학교까지 개근상을 수상한 경험이 있으며, 항상 내일을 스스로 잘
-            이끌어나가는 능력을 갖추고 있습니다.
+            학창 시절부터 조용하면서도 성실한 성격으로, 자신의 임무를 묵묵히
+            수행해 왔습니다. 또한, 초등학교부터 중학교, 고등학교까지 모두
+            개근상을 수상했으며, 항상 내일을 스스로 잘 이끌어나가는 능력을
+            갖추고 있습니다.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -60,7 +76,10 @@ const TimeLine = () => {
           }}
           icon={<img width={70} src="images/daejeonuniv.svg" />}
         >
-          <h3 className="vertical-timeline-element-title">대전대학교</h3>
+          <h3 className="vertical-timeline-element-title">
+            <FontAwesomeIcon icon={faBuildingColumns} />
+            대전대학교
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
             정보통신공학과 입학
           </h4>
@@ -80,7 +99,10 @@ const TimeLine = () => {
           }}
           icon={<img width={70} src="images/bag.png" />}
         >
-          <h3 className="vertical-timeline-element-title">지엔소프트</h3>
+          <h3 className="vertical-timeline-element-title">
+            <FontAwesomeIcon icon={faBuilding} />
+            지엔소프트
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
             기업부설연구소 인턴
           </h4>
@@ -103,17 +125,20 @@ const TimeLine = () => {
           icon={<img width={70} src="images/coding.png" />}
         >
           <h3 className="vertical-timeline-element-title">
+            <FontAwesomeIcon icon={faLaptopCode} />
             온디바이스AI 개발자 과정
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             HRD사업단 및 고용노동부 주관
           </h4>
           <p>
-            학교 수업 대신, 온디바이스AI 개발자 과정을 수강하였습니다. 이 기간
-            동안, 머신 러닝과 딥러닝 모델을 구현하고, 텐서플로우를 통해 모델
-            학습 및 최적화에 집중하였습니다. 또한, 자바를 이용해 안드로이드
-            모바일 애플리케이션을 개발하였습니다. 이러한 경험을 통해 실무에서의
-            문제 해결 능력과 창의적인 솔루션 개발 능력을 향상시켰습니다.
+            학교 수업 대신, HRD사업단 주관인 온디바이스AI 개발자 과정을
+            수강하였습니다. 이 기간 동안, 머신 러닝과 딥러닝 모델을 구현하고,
+            텐서플로우를 통해 모델 학습 및 최적화에 집중하였습니다. 또한, 자바를
+            이용해 안드로이드 모바일 애플리케이션을 개발하였습니다. 이러한
+            경험을 통해 일반 학교 수업을 듣는 학생들보다 경쟁력을 키웠고,
+            실무에서의 문제 해결 능력과 창의적인 솔루션 개발 능력을
+            향상시켰습니다.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -126,7 +151,10 @@ const TimeLine = () => {
           }}
           icon={<img width={70} src="images/top.png" />}
         >
-          <h3 className="vertical-timeline-element-title">대전대학교 졸업</h3>
+          <h3 className="vertical-timeline-element-title">
+            <FontAwesomeIcon icon={faGraduationCap} />
+            대전대학교 졸업
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
             정보통신공학과 수석졸업 예정
           </h4>

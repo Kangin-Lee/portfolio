@@ -4,6 +4,7 @@ import MenuTitle from "../component/MenuTitle";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import SkillList from "../component/SkillList";
+import HeadShake from "react-reveal/HeadShake";
 
 const Skill = () => {
   const responsive = {
@@ -36,6 +37,9 @@ const Skill = () => {
         <section>
           <div className="skill-language">
             <h1 className="skill-name">{"< Language >"}</h1>
+            <HeadShake>
+              <p className="item-hover">아이템에 마우스를 올려보세요!</p>
+            </HeadShake>
             <div>
               <Carousel responsive={responsive} className="skill-carousel">
                 <SkillList
@@ -73,6 +77,9 @@ const Skill = () => {
           </div>
           <div>
             <h1 className="skill-name">{"< Framework & Library >"}</h1>
+            <HeadShake>
+              <p className="item-hover">아이템에 마우스를 올려보세요!</p>
+            </HeadShake>
             <div>
               <Carousel responsive={responsive} className="skill-carousel">
                 <SkillList
@@ -120,6 +127,9 @@ const Skill = () => {
           </div>
           <div>
             <h1 className="skill-name">{"< Database >"}</h1>
+            <HeadShake>
+              <p className="item-hover">아이템에 마우스를 올려보세요!</p>
+            </HeadShake>
             <div>
               <Carousel responsive={responsive} className="skill-carousel">
                 <SkillList
@@ -137,6 +147,9 @@ const Skill = () => {
           </div>
           <div>
             <h1 className="skill-name">{"< Mobile >"}</h1>
+            <HeadShake>
+              <p className="item-hover">아이템에 마우스를 올려보세요!</p>
+            </HeadShake>
             <div>
               <Carousel responsive={responsive} className="skill-carousel">
                 <SkillList
@@ -149,6 +162,9 @@ const Skill = () => {
           </div>
           <div>
             <h1 className="skill-name">{"< Version Control & Deployment >"}</h1>
+            <HeadShake>
+              <p className="item-hover">아이템에 마우스를 올려보세요!</p>
+            </HeadShake>
             <div>
               <Carousel responsive={responsive} className="skill-carousel">
                 <SkillList
