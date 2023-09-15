@@ -477,7 +477,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   align-items: center;
   justify-content: center;
   font-family: var(--normal-font-family);
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
 }
 .flip-sub {
