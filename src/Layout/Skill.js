@@ -45,7 +45,7 @@ const Skill = () => {
                 <SkillList
                   src="images/skills/html.png"
                   title="HTML5"
-                  sub="웹 구조를 세밀하게 설계하고, 검색 엔진 최적화와 웹 접근성을 고려하여 사용자 중심의 웹 페이지를 구현하려 노력합니다."
+                  sub="웹 구조를 세밀하게 설계하고, 검색 엔진 최적화와 웹 접근성을 고려하여 사용자 중심의 웹 페이지를 구현하려 노력하고 있습니다."
                 />
                 <SkillList
                   src="images/skills/css.png"
@@ -98,6 +98,11 @@ const Skill = () => {
                   sub="일관된 디자인과 반응형 레이아웃을 제공하며, 간결한 코드 작성으로 빠르고 효율적인 UI 구축을 실현했습니다."
                 />
                 <SkillList
+                  src="images/skills/mui.png"
+                  title="MUI"
+                  sub="일관된 디자인과 반응형 레이아웃을 제공하며, 간결한 코드 작성으로 빠르고 효율적인 UI 구축을 실현했습니다."
+                />
+                <SkillList
                   src="images/skills/tensorflow.png"
                   title="TENSORFLOW"
                   sub="텐서플로우를 활용하여 머신러닝 및 딥러닝 프로젝트를 진행한 경험이 있습니다."
@@ -141,6 +146,11 @@ const Skill = () => {
                   src="images/skills/mysql.png"
                   title="MYSQL"
                   sub="처음으로 접한 데이터베이스로, 인턴 기간 동안 프로젝트에서 활용해 CRUD를 작업을 수행했습니다."
+                />
+                <SkillList
+                  src="images/skills/sqlite.png"
+                  title="SQLITE"
+                  sub="안드로이드 앱을 만들 때 사용한 데이터베이스입니다. 일기장 앱, 인공지능 앱등을 만들면서 CRUD 작업을 수행한 경험이 있습니다."
                 />
               </Carousel>
             </div>
