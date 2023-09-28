@@ -39,7 +39,7 @@ const TimeLine = () => {
             <li>이름: 이강인(Lee Kangin)</li>
             <li>생년월일: 1999년 02월 05일</li>
             <li>전화번호: 010-6472-8358</li>
-            <li>이메일: rkddls0205@(네이버)</li>
+            <li>이메일: rkddls0205@naver.com</li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement

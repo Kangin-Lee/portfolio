@@ -57,6 +57,17 @@ const Project = () => {
     // 데이터 배열
     {
       projectNum: "# PROJECT 2",
+      projectImg: ["images/project/kangflix.gif"],
+      projectExplain:
+        "넷플릭스를 보고 영감을 받아 제작해 본 영화 추천 웹 사이트입니다. useState와 useEffect를 활용하여 상태 관리와 비동기 데이터 로딩을 처리하는 방법을 연습했습니다. 이를 통해 웹 페이지에서 영화 정보를 동적으로 표시하고 필요한 데이터를 렌더링할 수 있었습니다. 또한 API를 통해 영화 목록을 가져오고, 사용자의 평점 순으로 정렬하여 원하는 영화를 찾을 수 있었습니다. 이 프로젝트를 통해 실제 사용자에게 가치 있는 애플리케이션을 만드는 경험했습니다.",
+      projectName: "KANGFLIX",
+      developmentPeriods: "2023.09.24 ~ 2023.09.28",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "VSCode"],
+      githubUrl: "https://github.com/Kangin-Lee/kangflix",
+      webPageUrl: "https://kangflix.netlify.app/",
+    },
+    {
+      projectNum: "# PROJECT 3",
       projectImg: ["images/project/hnm.gif"],
       projectExplain:
         "React를 연습하며 H&M 홈페이지 클론을 만들어 보았습니다. 이 프로젝트에서는 JSON-Server를 활용하여 데이터 관리 및 RESTful API 구현을 연습했습니다. 기능은 다소 제한적이었지만 React를 활용한 데이터 관리와 라우팅에 대한 학습 경험이었습니다. 이러한 경험을 통해 웹 개발에 대한 흥미와 실력 향상을 도모하고 있으며, 앞으로 더 다양하고 복잡한 프로젝트에 도전하며 성장하고자 합니다.",
@@ -75,7 +86,7 @@ const Project = () => {
       webPageUrl: "https://kangin-hnm.netlify.app/",
     },
     {
-      projectNum: "# PROJECT 3",
+      projectNum: "# PROJECT 4",
       projectImg: ["images/project/stylist.gif"],
       projectExplain:
         "캡스톤 디자인 시간에 제작한 웹 사이트입니다. 패션에 대한 스마트 미러를 만들면서 그 제품과 연동이 되는 웹페이지를 만들 목적으로 구축했습니다. API로 날씨를 받아와 보여주고 오늘 날씨에 따른 옷차림과 컬러매치, 본인의 옷장에 있는 옷으로 코디하는 기능을 만들었습니다. 연습으로 간단한 프로젝트에서만 사용하던 React를 처음으로 실제 프로젝트에 사용해서 잘 만들고 싶은 욕심이 있었습니다. 여러가지 많은 툴을 사용해 봄으로써 실력 향상에 좋은 발판이 되었다고 생각합니다.",
@@ -94,7 +105,7 @@ const Project = () => {
       webPageUrl: "https://smartmirror-stylist.netlify.app/",
     },
     {
-      projectNum: "# PROJECT 4",
+      projectNum: "# PROJECT 5",
       projectImg: ["images/project/portfolio.gif"],
       projectExplain:
         "종이로 제출하는 포트폴리오처럼 남들과 똑같은 포트폴리오를 따르기보다, 나만의 독특한 포트폴리오로 제 자신을 표현해보고자 만들어봤습니다. 다른 파트로 이동할 때마다 다양한 색감을 사용하는 디자인으로 저의 다양성과 프로젝트에 대한 열정을 나타내보았습니다. 하나의 분야에만 제한되지 않고 여러 분야를 다양하게 도전하면서 더 큰 목표를 향해 나아가겠다는 다짐입니다.",
